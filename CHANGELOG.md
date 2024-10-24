@@ -1,4 +1,4 @@
-# LCMPublishingTemplate Changelog
+# PartyPooper Changelog
 
 ## Describe your changes for each release here
 

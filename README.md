@@ -1,6 +1,6 @@
-# LCMPublishingTemplate
+# PartyPooper
 
-__PROJECT_DESC__
+A lethal company mod to remove the party hat. Good for people using custom models or party poopers that hate fun
 
 ## How to use this Template
 
