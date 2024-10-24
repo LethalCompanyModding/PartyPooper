@@ -10,7 +10,8 @@
     -->
     <AssemblyName>dev.mamallama.lcm.partypooper</AssemblyName>
     <Authors>LethalCompanyModding</Authors>
-    <Description>A lethal company mod to remove the party hat. Good for people using custom models or party poopers that hate fun</Description>
+    <Description>A lethal company mod to remove the party hat. Good for people using custom models
+      or party poopers that hate fun</Description>
     <Product>PartyPooper</Product>
     <!--
       Except this, you should keep this up to date with your publishing tags.
@@ -46,7 +47,7 @@
     />
     <PackageReference
       Include="LethalCompany.GameLibs.Steam"
-      Version="62.0.0-ngd.0"
+      Version="64.0.0-ngd.0"
     />
 
     <!--
