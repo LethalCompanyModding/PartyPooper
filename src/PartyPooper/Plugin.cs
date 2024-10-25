@@ -1,5 +1,7 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
+using HarmonyLib;
+using PartyPooper.Patches;
 
 /*
   Here are some basic resources on code style and naming conventions to help
@@ -25,6 +27,9 @@ public class Plugin : BaseUnityPlugin
       We assign it here
     */
     Log = Logger;
+
+    Harmony patcher = new(LCMPluginInfo.PLUGIN_GUID);
+    patcher.PatchAll(typeof(UnlockableSuit_Patches));
 
     // Log our awake here so we can see it in LogOutput.txt file
     Log.LogInfo($"Plugin {LCMPluginInfo.PLUGIN_NAME} is loaded!");
