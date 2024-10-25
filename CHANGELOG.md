@@ -1,5 +1,5 @@
 # PartyPooper Changelog
 
-## Describe your changes for each release here
+## 1.0.0
 
-The contents of this file will display in the Changelog tab on the Thunderstore
+- Initial release, hats will be removed at the start of the game and when changing suits
